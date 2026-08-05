@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work 4</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>  #коробка
+            <legend>user info</legend>  #надпись на коробке
+        <label for="name">Name:</label> #имя
+        <input type="text" id="name" name="name" required><br>  #ввод имени
+        <label for="email">Email:</label>   #почта
+        <input type="email" id="email" name="email" required><br>   #ввод почты
+        <label for="password">Password:</label> #пароль
+        <input type="password" id="password" name="password" required><br>  #ввод пароля
+        <button type="submit">Submit</button>   #кнопка submit
+        <label for="message">Message</label>    #сообщения
+        <textarea id="message" name="message" rows="2" cols="45"></textarea><br>    #коробка для сообщенний
+        <label for="country">Country:</label>   #Страна
+        <select id="country" name="country" required>   #вариынт страны
+            <option value="">Select your country</option>   #вариынт страны
+            <option value="ru">Russia</option>  #вариынт страны
+            <option value="kz">Kazakhstan</option>  #вариынт страны
+            <option value="us">United States</option>   #вариынт страны
+            <option value="ca">Canada</option>  #вариынт страны
+        </select>
+        <br><button type="submit">Submit</button><br>   #кнопка submit
+    </fieldset> #коробка
+            <button type="reset">Reset</button> #кнопка reset
+    </form>
+</body>
+</html>
