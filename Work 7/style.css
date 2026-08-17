@@ -1,0 +1,20 @@
+.box1 { /*Класс Коробка*/
+    width: 50%; /*Размер %*/
+    height: 2em;    /*Размер em*/
+    background-color: #0007D0;  /*Цвет hex*/
+    border-radius: 20px;    /*Округления краев*/
+}
+.box {  /*Класс Коробка*/
+    width: 200px;   /*Размер px*/
+    height: 200px;  /*Размер px*/
+    background-color: #0084BB;  /*Цвет hex*/
+    border-radius: 20px;    /*Округления краев*/
+}
+.text1 {    /*Класс текст*/
+    font-size: 2rem;    /*Размер rem*/
+    color: rgb(0, 0, 176);  /*Цвет rgb*/
+}
+.text { /*Класс текст*/
+    font-size: 50px;    /*Размер*/
+    color: rgba(0, 115, 255, 0.4);  /*Цвет rgba*/
+}
