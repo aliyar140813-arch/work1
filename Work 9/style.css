@@ -1,0 +1,37 @@
+.write:focus {
+    border-color: #0007D0;
+}
+.button:hover {
+    background-color: #0007D0;
+    color: white;
+}
+.list:first-child {
+    color: red;
+    background-color: blue;
+}
+.list:last-child {
+    color: blue;
+    background-color: red;
+}
+h1:first-child {
+    background-color: #007007;
+}
+p:last-child {
+    border-color: #ff0000;
+}
+a:focus {
+    background-color: #007007;
+}
+h2:hover {
+    background-color: #007007;
+}
+.Item:first-child:hover {
+    background-color: #0084BB;
+}
+.Item:last-child:focus {
+    background-color: #72242A;
+}
+.Item:nth-child(odd) {
+    background-color: #474747;
+}
+
