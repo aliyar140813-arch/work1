@@ -1,0 +1,123 @@
+.block {
+    background-color: #0007D0;
+    display: block;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    color: rgb(255, 0, 0);
+}
+.inline {
+    background-color: rgb(255, 0, 0);
+    display: inline;
+    align-items: end;
+    height: 200px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+}
+.flex {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    color: #0007D0;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    height: 300px;
+    align-content: space-evenly;
+    align-items: center;
+    border: 2.5px solid black;
+    justify-content: space-between;
+}
+.item-1 {
+    background-color: aqua;
+    border: 2.5px solid black;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    flex: 0 0 20%;
+}
+.item-2 {
+    flex-grow: 1;
+    background-color: #0007D0;
+    color: #ffffff;
+}
+.item-3 {
+    flex-shrink: 1;
+    background-color: #722;
+    color: #ffffff;
+}
+.item-4 {
+    flex: 0 0.5 450px;
+    background-color: #000;
+    color: #ffffff;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+.item-5 {
+    flex-grow: 0.5;
+    background-color: #0007D0;
+    color: #ffffff;
+}
+.item-6 {
+    flex-grow: 1;
+    background-color: #722;
+    color: #ffffff;
+}
+.item-7 {
+    flex-basis: 450px;
+    background-color: #000;
+    color: #ffffff;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+}
+.item-8 {
+    background-color: #0007D0;
+    color: #ffffff;
+}
+.item-9 {
+    background-color: #722;
+    color: #ffffff;
+}
+.item-10 {
+    background-color: #000;
+    color: #ffffff;
+}
+.container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+.container5 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    border: solid #000;
+}
+.item-11 {
+    background-color: #722;
+    border: solid #000;
+    height: 350px;
+}
+.item-12 {
+    background-color: #0007D0;
+    border: solid #000;
+    height: 150px;
+}
+.item-13 {
+    background-color: #0084bb;
+    border: solid #000;
+    height: 250px;
+    flex: 0 0.5 200px;
+}
