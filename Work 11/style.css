@@ -1,0 +1,132 @@
+.container {
+    background-color: #131313;
+    width: 1280px;
+    height: 64px;
+}
+.container1 {
+    background-color: #FFFFFF;
+    width: 1280px;
+    height: 51px;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.textheader1 {
+    background-color: #FFFFFF;
+    height: 31px;
+}
+.textheader1 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textheader2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Images0-3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Images4-6 {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.buttons1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 309px;
+    height: 28px;
+    background-color: #EDEEF1;
+    border: 1px solid #D3D5DC;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.buttons2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    width: 576px;
+    height: 58px;
+    background-color: #353534;
+    border: 1px solid #5D3F3B;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.search-input1 {
+    background-color: #EDEEF1;
+    outline: none;
+    border: none;
+    width: 53px;
+    height: 21px;
+    color: #545455;
+}
+.search-input2 {
+    background-color: #353534;
+    outline: none;
+    border: none;
+    width: 428px;
+    height: 21px;
+    color: white;
+}
+.Search-Icon1 {
+    display: flex;
+    width: 33px;
+    height: 28px;
+    padding: 10px;
+}
+.Search-Icon2 {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+}
+.ROBLOX {
+    color: #E2231A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.header-block {
+    display: flex;
+    align-items: center;
+}
+.Home {
+    color: #E5E2E1;
+}
+.Discover {
+    color: #E7BDB7;
+}
+.Avatar-Shop {
+    color: #E7BDB7;
+}
+.header-block {
+    display: flex;
+    gap: 20px;
+}
+.NumberZero {
+    width: 11px;
+    height: 16px;
+}
+.nav-header2 {
+    display: flex;
+    gap: 10px;
+}
