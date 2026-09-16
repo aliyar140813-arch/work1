@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card1 {
+    display: flex;
+    width: 1200px;
+    height: 248px;
+    background-color: #2A2A2A;
+    border-radius: 12px;
+    border: 1px solid #5D3F3B;
+}
+
+.Big-Text {
+    width: 942px;
+    height: 56px;
+    color: #E5E2E1;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+
+.Medium-text {
+    color: #E7BDB7;
+    width: 544.38px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.CardWithoutBigImage {
+    display: flex;
+    flex-direction: column;
+    width: 942px;
+    height: 178px;
+    margin-left: 55px;
+}
+
+.boxwithicon4 {
+    display: flex;
+    width: 176.52px;
+    height: 38px;
+    background-color: #201F1F;
+    border-radius: 8px;
+    border: 1px solid #5D3F3B;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+}
+
+.boxwithicon5 {
+    display: flex;
+    width: 176.52px;
+    height: 38px;
+    background-color: #201F1F;
+    border-radius: 8px;
+    border: 1px solid #5D3F3B;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+}
+
+.textinbox {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E5E2E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon4 {
+    width: 24px;
+    height: 12px;
+}
+
+.textinbox2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E5E2E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon5 {
+    width: 20px;
+    height: 20px;
+}
+
+.icon4and5 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: space-between;
+    width: 369px;
+}
+
+.BigAvatar {
+    display: flex;
+    width: 190.01px;
+    height: 190px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.BoxBigAvatar {
+    display: flex;
+    width: 185.36px;
+    height: 185.36px;
+}
+
+body {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.card2 {
+    display: flex;
+    width: 256px;
+    height: 223px;
+    background-color: #000000;
+    margin-top: 60px;
+    gap: 4px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card3 {
+    display: flex;
+    width: 288px;
+    height: 363px;
+    background-color: #201F1F;
+    margin-top: 60px;
+    gap: 4px;
+    border-radius: 12px;
+    border: 1px solid #5D3F3B;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Imageofgame1 {
+    display: flex;
+    margin: 10px;
+    width: 236px;
+    height: 144px;
+}
+
+.namegame1 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 236px;
+    height: 28px;
+    color: #E5E2E1;
+}
+
+.percent1 {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 22.36px;
+    height: 16px;
+    color: #E7BDB7;
+}
+
+.percentoflike1 {
+    display: flex;
+    width: 236px;
+    height: 16px;
+    gap: 7px;
+}
+
+.LikeImage1 {
+    width: 12.25px;
+    height: 11.67px;
+}
+
+.percent2 {
+    font-weight: 400;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18.67px;
+    height: 15px;
+    color: #E7BDB7;
+}
+
+.Activepeople {
+    font-weight: 700;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 52.06px;
+    height: 15px;
+    color: #E7BDB7;
+}
+
+.namegame2 {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 254px;
+    height: 20px;
+    color: #E5E2E1;
+}
+
+.percentoflike2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 254px;
+    height: 15px;
+}
+
+.LikeImage2 {
+    width: 10.5px;
+    height: 10px;
+}
+
+.Imageofgame2 {
+    display: flex;
+    border-radius: 12px;
+    width: 286px;
+    height: 286px;
+}
+
+.Likeandpercent {
+    display: flex;
+    gap: 5px;
+}
