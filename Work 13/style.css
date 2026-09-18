@@ -1,0 +1,88 @@
+/*Ex 1*/
+.text1 {
+    position: static;
+    width: 75px;
+    height: 75px;
+    background-color: #492;
+    color: white;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.text2 {
+    position: static;
+    width: 75px;
+    height: 75px;
+    background-color: #722;
+    color: white;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.text3 {
+    position: static;
+    width: 75px;
+    height: 75px;
+    background-color: #08BB;
+    color: white;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+/*Ex 2*/
+
+.relative {
+    position: relative;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #000;
+    top: 5px;
+}
+
+/*Ex 3*/
+
+.container {
+    width: 200px;
+    height: 40px;
+    background-color: #000;
+    border: 3px solid #ff0000;
+    margin-top: 20px;
+}
+
+.element1 {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: crimson;
+}
+
+.element2 {
+    position: relative;
+    color: crimson;
+}
+
+.element3 {
+    position: relative;
+    color: crimson;
+}
+
+/*Ex 4*/
+
+.Fixed {
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+}
+
+/*Ex 5*/
+
+.Sticky {
+    position: sticky;
+    background-color: lightsalmon;
+    color: #000;
+    align-items: center;
+    top: 50px;
+}
