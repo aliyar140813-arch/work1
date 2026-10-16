@@ -1,0 +1,368 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 828px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    gap: 24px;
+    background-color: #111111;
+}
+
+.GridWith81 {
+    display: grid;
+    grid-template-columns: repeat(4, 283px);
+    grid-template-rows: repeat(2, 363px);
+    gap: 16px;
+    width: 1180px;
+    height: 744px;
+}
+
+.TextGridWith81 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E2E1;
+    width: 1180px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.Game {
+    display: flex;
+    flex-direction: column;
+    background-color: #201F1F;
+    border-radius: 12px;
+    border: 1px solid #5D3F3B;
+}
+
+.GameImage {
+    width: 281px;
+    height: 286px;
+    border-radius: 12px;
+}
+
+.CityLife {
+    width: 249px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E5E2E1;
+}
+
+.TextUnderGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+.LikeAndPercent {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 33.17px;
+    height: 15px;
+}
+
+.Percent {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    width: 18.67px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 10px;
+    color: #E7BDB7;
+}
+
+.Active {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    width: 58px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #E7BDB7;
+}
+
+.ActiveOfPeople {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 15px;
+}
+
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 618px;
+    height: 1588px;
+    padding: 10px;
+    gap: 24px;
+}
+
+.GridWith82 {
+    display: grid;
+    grid-template-columns: repeat(2, 291px);
+    grid-template-rows: repeat(4, 363px);
+    gap: 16px;
+    width: 598px;
+    height: 1504px;
+}
+
+.TextGridWith82 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E2E1;
+    width: 598px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.GameImage1 {
+    width: 289px;
+    height: 286px;
+    border-radius: 12px;
+}
+
+.TextGridWith83 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E2E1;
+    width: 330px;
+    height: 28px;
+}
+
+.Container2 {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 507.5px;
+    padding: 10px;
+    gap: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #111111;
+}
+
+.TextGridWith83 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 330px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E5E2E1;
+}
+
+.GridWith83 {
+    display: grid;
+    grid-template-columns: repeat(2, 161px);
+    grid-template-rows: repeat(2, 213.75px);
+    gap: 16px;
+    width: 338px;
+    height: 443.5px;
+}
+
+.ImageGame1 {
+    width: 161px;
+    height: 213.75px;
+    border-radius: 12px;
+}
+
+.TextCity {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    width: 137px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ACTIVEICON {
+    width: 12.83px;
+    height: 9.33px;
+}
+
+.ACTIVE {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25.55px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.ACTIVE1 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19.95px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.ACTIVE2 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 23.14px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.TextUnderGame2 {
+    position: absolute;
+    width: 137px;
+    height: 36.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    bottom: 12px;
+    right: 12px;
+}
+
+.Game1 {
+    position: relative;
+}
+
+.Game2 {
+    position: relative;
+}
+
+.Game3 {
+    position: relative;
+}
+
+.Game4 {
+    position: relative;
+}
+
+.activenum {
+    display: flex;
+    width: 137px;
+    height: 15px;
+    gap: 4px;
+    opacity: 80%;
+}
+
+.Container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    width: 185px;
+    height: 995px;
+    padding: 10px;
+    gap: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.TextGridWith84 {
+    width: 157px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5E2E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.GridWith84 {
+    display: grid;
+    grid-template-columns: repeat(1, 165px);
+    grid-template-rows: repeat(4, 213.75px);
+    width: 165px;
+    height: 903px;
+    gap: 16px;
+}
+
+.TextUnderGame21 {
+    position: absolute;
+    width: 137px;
+    height: 36.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    bottom: 12px;
+    right: 12px;
+}
+
+.Game11 {
+    position: relative;
+}
+
+.Game21 {
+    position: relative;
+}
+
+.Game31 {
+    position: relative;
+}
+
+.Game41 {
+    position: relative;
+}
+
+.ImageGame11 {
+    width: 161px;
+    height: 213.75px;
+    border-radius: 12px;
+}
+
+.TextCity1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    width: 141px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.activenum1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.ACTIVEICON1 {
+    width: 12.83px;
+    height: 9.33px;
+}
+
+.ACTIVE11 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25.55px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.ACTIVE111 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 19.95px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.ACTIVE21 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 23.14px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 400;
+}
