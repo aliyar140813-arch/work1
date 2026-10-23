@@ -1,0 +1,51 @@
+.Shadow1 {
+    box-shadow: -10px 10px 5px 0px gray;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.Shadow2 {
+    box-shadow: 10px 10px 5px 0px gray;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.Gradient1 {
+    background: linear-gradient(-45deg, red, blue);
+    width: 300px;
+    height: 300px;
+}
+
+.Gradient2 {
+    background: radial-gradient(circle, blue, red);
+    width: 300px;
+    height: 300px;
+}
+
+.Text1 {
+    background: linear-gradient(65deg, blue, red);
+    color: transparent;
+    background-clip: text;
+}
+
+.Text2 {
+    text-shadow: 5px 5px 10px black;
+}
+
+.Text3 {
+    text-shadow: 5px 5px 10px black;
+}
+
+.Text4 {
+    background: linear-gradient(65deg, red, blue);
+    color: transparent;
+    background-clip: text;
+}
+
+.ShaDient {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
