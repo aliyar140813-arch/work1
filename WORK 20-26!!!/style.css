@@ -1,0 +1,72 @@
+.before {
+    color: aqua;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 351px;
+    height: 80px;
+    position: relative;
+}
+
+.before::before {
+    content:"BEFORE TEXT";
+    display: block;
+    color: crimson;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.after {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    width: 351px;
+    height: 80px;
+    position: relative;
+}
+
+.after::after {
+    content: "AFTER TEXT";
+    display: block;
+    color: blue;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beforeafter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid black;
+    position: relative;
+    color: blue;
+}
+
+.beforeafter::before {
+    content: "BEFORE";
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 120px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    display: block;
+}
+
+.beforeafter::after {
+    content: "AFTER";
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 125px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    display: block;
+}
